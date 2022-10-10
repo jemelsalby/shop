@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { IndexComponent } from './index/index.component';
+
+import { IphoneComponent } from './iphone/iphone.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IndexComponent
+   
+    IphoneComponent
   ],
   imports: [
     BrowserModule,
